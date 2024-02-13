@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-pink-500 to-red-500">
-    <h1 class="text-5xl font-bold text-white mb-8">  {{ userName }}!</h1>
+    <h1 class="text-5xl font-bold text-white mb-8"> Happy Valentine's Day</h1>
+    <h1 class="text-5xl font-bold text-white mb-8">{{ userName }}!</h1>
 
     <Vue3Lottie 
       :autoplay="isBallonsAnimating"
@@ -10,7 +11,7 @@
     />
 
     <p class="text-lg text-center text-white mt-8">
-      <!-- These balloons are filled with all my love for you. Wishing you a day filled with joy, happiness, and lots of love! -->
+      These balloons are filled with all my love for you. Wishing you a day filled with joy, happiness, and lots of love!
     </p>
   </div>
 </template>
@@ -22,17 +23,20 @@ export default {
   components: {
     Vue3Lottie,
   },
-  props: {
-    userName: String,
-  },
   data() {
     return {
       isBallonsAnimating: false,
       balloonsAnimationData: null,
     };
   },
+  computed: {
+    userName() {
+      return this.$route.params.name;
+    },
+  },
   async mounted() {
-    this.balloonsAnimationData = await import('../animate.json');
+    this.
+    balloonsAnimationData = await import('../animate.json');
     setTimeout(() => {
       this.isBallonsAnimating = true;
     }, 500); 
