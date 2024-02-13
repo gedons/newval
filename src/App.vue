@@ -1,9 +1,15 @@
 <template>
   <div>
-     <p class="font-semibold">paragraph</p>
+     <InputName/>
   </div>
 </template>
 
 <script>
- 
+ import InputName from './components/InputName.vue';
+
+ export default {
+  components: {
+    InputName,
+  },
+};
 </script>
