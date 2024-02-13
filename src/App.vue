@@ -3,11 +3,11 @@
 </template>
 
 <script>
- import InputName from './components/InputName.vue';
+ import SelectValentine from './components/SelectValentine.vue';
 
  export default {
   components: {
-    InputName,
+    SelectValentine,
   },
 };
 </script>
