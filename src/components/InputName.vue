@@ -1,7 +1,8 @@
 // InputName.vue
 <template>
   <form @submit.prevent="submitName">
-    <input type="text" v-model="userName" placeholder="Enter your name">
+    <label for="name-input">Enter your name:</label>
+    <input type="text" v-model="userName" id="name-input" placeholder="Enter your name">
     <button type="submit">Surprise!</button>
   </form>
 </template>

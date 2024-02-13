@@ -6,7 +6,7 @@ import HappyValentine from '../components/HappyValentine.vue';
 
 const routes = [
   { path: '/', component: InputName },
-  { path: '/happy-valentines/:userName', component: HappyValentine },
+  { path: '/happy-valentines/:name', component: HappyValentine },
 ];
 
 const router = createRouter({
