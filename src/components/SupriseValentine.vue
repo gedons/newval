@@ -7,7 +7,7 @@
 
             <div class="flex justify-center mt-8">
                 <button @click="handleClick"
-                    class="bg-pink-500 hover:bg-pink-700 text-white font-bold rounded-md px-4 py-2 mr-4">Click!</button>
+                class="bg-pink-500 hover:bg-pink-700 text-white font-bold rounded-md px-4 py-2 mr-4">Click!</button>
             </div>
         </div>
     </div>
