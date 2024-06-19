@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-pink-500 to-red-500">
-    <h1 class="text-5xl font-bold text-white mb-8"> Happy Valentine's Baby 😘</h1>
+    <h1 class="text-5xl font-bold text-white mb-8"> Just Want to Show You How Special You Are to Me 😘😘</h1>
     <!-- <h1 class="text-5xl font-bold text-white mb-8">{{ userName }}!</h1> -->
 
     <Vue3Lottie :autoplay="true" :loop="true" :animationData="animateJson" class="w-96 h-96" />
